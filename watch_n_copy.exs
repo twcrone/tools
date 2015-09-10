@@ -13,6 +13,6 @@ defmodule WatchNCopy do
 
 end
 
+# Usage:  elixir watch_n_copy.exs <source_file_path> <destination_file_path>
 [source, destination] = System.argv()
-
 WatchNCopy.run(source, destination)
